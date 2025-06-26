@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+background: radial-gradient(circle at center, #000000 0%, #163454 40%, #1f486f 60%, #173a47 80%, #16455b 100%);
+min-height: 100vh;
+font-family: 'Inter', sans-serif;
+overflow-x: hidden;
+}
+.profile-image {
+box-shadow: 0 0 0 4px #23aec0, 0 0 0 8px rgba(35, 174, 192, 0.3);
+}
+.gradient-text {
+background: linear-gradient(90deg, #1f6bc9, #23aec0);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.link-card {
+transition: all 0.3s ease;
+}
+.link-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+.exercise-card {
+transition: all 0.3s ease;
+}
+.exercise-card:hover {
+transform: scale(1.03);
+}
+.blog-card {
+transition: all 0.3s ease;
+}
+.blog-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
