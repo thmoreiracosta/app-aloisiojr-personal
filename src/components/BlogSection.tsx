@@ -30,8 +30,8 @@ const BlogSection = () => {
 
         {/* Blog com vídeo usa expanded controlado + abre modal */}
         <BlogCard
-          title="Boletim do gestor de Saúde do mês de Maio"
-          content="Neste vídeo, demonstro exercícios simples e seguros que podem ser feitos em casa para manter a mobilidade."
+          title="Dicas valiosas para exercícios ideais e efetivos."
+          content="Neste vídeo, dou dicas de exercícios simples, seguros e que funcionam e são muito importantes para alcançar seu objetivo."
           date="5 de Junho, 2025"
           isVideo
           actionLabel="Assistir"
@@ -41,16 +41,16 @@ const BlogSection = () => {
             setVideoExpanded(true);
             setIsModalOpen(true);
           }}
-          videoPreviewSrc="./capa_video.jpg" // ✅ imagem de prévia aqui
-          extraContent={`📢 Saiu o Boletim do Gestor de Saúde do mês de Maio! 💡 Teve atleta com parada cardíaca no palco, estudo novo sobre o Wegovy, casos bizarros com Ozempic e muito mais.
-          🧠 Informação que impacta, com o olhar de quem vive saúde de verdade.\n 🚨 E se você acha que exagero não faz mal, espera ver o “pé de Ozempic”…
-          📌 Compartilha com quem precisa repensar o que chama de autocuidado e me segue pra mais conteúdos que transformam vidas.
-            #AloisioJrPersonal #BoletimDoGestorDeSaúde #ExercicioSalvaVidas #GestorDeSaúde #LongevidadeAtiva #AtualizaçõesDeSaúde`}
+          videoPreviewSrc="./capa-video.png" // ✅ imagem de prévia aqui
+          extraContent={`📢 Claro que tem exercício bom que ficou de fora e alguns ruins que nem mereciam entrar. 😅\n
+            🏃 Mas nessa tierlist eu fui direto ao ponto: o que funciona, o que depende e o que só ocupa espaço no treino.\n
+            👨‍🔬 É opinião técnica, mas ainda é opinião. Então comenta aí o que você tiraria ou colocaria.\n
+            #AloisioJrPersonal #GestorDeSaúde #TreinoComResponsabilidade #MusculaçãoComCritério #PrescriçãoEstratégica #LongevidadeAtiva`}
         />
       </div>
 
       <VideoModal
-        videoSrc="./boletim_maio.mp4"
+        videoSrc="./exercicios-ideais.mp4"
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />

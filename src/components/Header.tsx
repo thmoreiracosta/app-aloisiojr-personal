@@ -9,7 +9,7 @@ const Header = () => {
             <img src="./my-photo.jpg" alt="" />
           </a>
         </div>
-        <div className="absolute -bottom-2 -right-2 bg-accent text-white rounded-full p-2 shadow-lg">
+        <div className="absolute -bottom-2 -right-2 bg-sky-600 text-white rounded-full p-2 shadow-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
